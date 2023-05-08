@@ -414,13 +414,16 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 120px;
+        height: 140px;
         width: 100%;
 
     }
     
     .logo {
         width: 50%;
+        padding: 10px 0 0 0;
+        align-items: center;
+        justify-content: center;
         
     }
 
