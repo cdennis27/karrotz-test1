@@ -442,9 +442,21 @@ footer {
         padding: 0;
     }
 
+    .home-title {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .home-subtitle {
+        font-size: 1.5rem;
+        text-align: left;
+        width: 80%;
+    }
+
     .left-banner {
         height: 50%;
         width: 100%;
+        padding: 0 0 0 5vw;
     }
 
     .right-banner {
