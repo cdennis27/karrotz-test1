@@ -444,12 +444,13 @@ footer {
     }
 
     .home-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: left;
     }
 
     .home-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 300;
         text-align: left;
         width: 80%;
     }
