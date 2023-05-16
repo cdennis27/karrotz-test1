@@ -17,7 +17,7 @@ html {
     scroll-behavior: smooth;
     display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0 0 0 0;
 }
@@ -33,7 +33,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 20vh;
+    height: 20%;
     background-color: #000000;
     width: 100%;
     color: var(--textColor);
@@ -50,14 +50,17 @@ a {
     object-fit: cover;
 }
 
+
+
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-
-    height: 60vh;
+    border: 2px solid orange;
+    height: 60%;
     background-color: white;
 }
 
@@ -109,7 +112,7 @@ a {
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 22vh;
+    height: 20%;
     background-color: #000000;
     width: 100%;
     color: var(--textColor);
@@ -139,7 +142,7 @@ a {
 
 .left {
     align-items: left;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +153,7 @@ a {
 
 .right {
     align-items: right;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,6 +162,24 @@ a {
     padding: 5vw;
 }
 
+
+.center {
+    align-items: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--textColor);
+    font-size: 2rem;
+}
+
+.center a {
+    color: var(--textColor);
+    font-size: 1.5rem;
+    padding: 0;
+}
 .right img {
     padding: 2vw;
 }
@@ -167,20 +188,20 @@ a {
 @media screen and (max-width: 1020px) {
     
     .header {
-        height: 80px;
+        height: 12%;
         width: 100%;
         overflow-x: hidden;
     }
 
     .header img {
         width: auto;
-        height: 50px;
+        height: 100px;
         padding: 5px;
         object-fit: cover;
     }
 
     .container {
-        height: auto;
+        height: 68%;
     }
 
     .button {
@@ -197,7 +218,7 @@ a {
 
     .footer {
         padding: 5px 0 5px 0;
-        height: 100px;
+        height: 20%;
         font-size: 80%;
         line-height: 1.1rem;
     }
