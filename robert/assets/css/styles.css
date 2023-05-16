@@ -33,7 +33,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 20%;
+    height: 150px;
     background-color: #000000;
     width: 100%;
     color: var(--textColor);
@@ -46,7 +46,7 @@ a {
 
 .home img {
     width: auto;
-    height: 19vh;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -59,7 +59,6 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 2px solid orange;
     height: 60%;
     background-color: white;
 }
@@ -142,18 +141,24 @@ a {
 
 .left {
     align-items: left;
-    width: 30%;
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     text-align: left;
-    padding: 5vw;
+    padding: 0 5vw 0 5vw;
+    
+}
+
+.left a {
+    height: 100%;
 }
 
 .right {
     align-items: right;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,9 +193,10 @@ a {
 @media screen and (max-width: 1020px) {
     
     .header {
-        height: 12%;
+        height: 10%;
         width: 100%;
         overflow-x: hidden;
+        padding: 0;
     }
 
     .header img {
@@ -200,33 +206,57 @@ a {
         object-fit: cover;
     }
 
+    .left a img {
+        height: 130px;
+    }
+
     .container {
-        height: 68%;
+        height: 70%;
     }
 
     .button {
         margin: 10px 0 10px 0;
         width: 80vw;
-        height: 50px;
+        height: 45px;
+        font-size: 1.2rem;
     }
     
     .disclamer {
-        padding: 10px 2vw 5px 2vw;
-        height: 50vh;
-        font-size: .7rem;
+        padding: 5px 2vw 5px 2vw;
+        
+        font-size: .6rem;
     }
 
     .footer {
-        padding: 5px 0 5px 0;
+        padding: 2px 0 2px 0;
         height: 20%;
-        font-size: 80%;
-        line-height: 1.1rem;
+        font-size: 90%;
+        line-height: .7rem;
     }
 
     .footer p {
-        padding: 5px 0 5px 0;
+        padding: 0;
+        font-size: .8rem;
         
     }
+
+    .footer h3 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .footer a {
+        font-size: 1rem;
+        padding: 2px 0 2px 0;
+    }
+
+    .footer span {
+        font-size: .8rem;
+        padding: 2px 0 0 0;
+        line-height: 1rem;
+    }
+
+
 
 }
 
