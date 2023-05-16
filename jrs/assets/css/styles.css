@@ -92,7 +92,7 @@ a {
     position: relative;
     
     width: 100%;
-    
+    color: var(--accentColor);
     text-align: left;
     font-size: 1rem;
     line-height: normal;
