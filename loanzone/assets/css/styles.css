@@ -175,6 +175,12 @@ a {
         width: 80vw;
         height: 50px;
     }
+
+    .buttonAccent {
+        margin: 10px 0 10px 0;
+        width: 80vw;
+        height: 50px;
+    }
     
     .disclamer {
         padding: 10px 2vw 5px 2vw;
