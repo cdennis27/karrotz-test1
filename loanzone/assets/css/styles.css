@@ -5,6 +5,9 @@
     --bg: rgb(0, 0, 0);
     --accentColor: rgb(173, 173, 173);
     --buttonBgAccent: rgb(125, 0, 0);
+    --buttonBgHover: rgb(160, 246, 234);
+    --fontHover: rgb(0, 0, 0);
+    --buttonBgAccentHover: rgb(255, 31, 31);
 }
 
 * {
@@ -85,22 +88,24 @@ a {
     border-radius: 20px;
 }
 
+.button:hover {
+    border-color: var(--buttonBg);
+    border: 5px solid var(--buttonBg);
+    background-color: var(--buttonBgHover);
+    color: var(--fontHover);
+    
+}
+
 .buttonAccent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 80px;
     background-color: var(--buttonBgAccent);
-    width: 50vw;
-    color: var(--font);
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: normal;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 0 20px 0;
-    border-radius: 20px;
+    
+}
+
+.buttonAccent:hover {
+    background-color: var(--buttonBgAccentHover);
+    border-color: var(--buttonBgAccentHover);
+    border: 5px solid var(--buttonBgAccent);
+    
 }
 
 .disclamer {
@@ -175,13 +180,7 @@ a {
         width: 80vw;
         height: 50px;
     }
-
-    .buttonAccent {
-        margin: 10px 0 10px 0;
-        width: 80vw;
-        height: 50px;
-    }
-    
+        
     .disclamer {
         padding: 10px 2vw 5px 2vw;
         height: 50vh;
