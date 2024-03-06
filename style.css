@@ -136,9 +136,10 @@ a:visited, a {
 
 .home-subtitle {
     position: relative;
-    
+    text-align: left;
+    padding: 0 0 0 30px;
 }
-
+/*
 .home-subtitle::before,
 .home-subtitle::after {
     content: "";
@@ -163,7 +164,7 @@ a:visited, a {
                disappear 4s steps(2) forwards;
 }
 
-
+*/
 
 @keyframes typing {
     to {
@@ -461,6 +462,7 @@ footer {
         font-weight: 300;
         text-align: left;
         width: 70%;
+        padding: 0 0 0 0;
     }
 
     .left-banner {
@@ -478,3 +480,21 @@ footer {
         font-size: 2rem;
     }
   }
+
+
+  @media screen and (max-width: 1200px) {
+  
+    .nav-button {
+        font-size: .8rem;
+    }
+
+    .home-title {
+        font-size: 1.7rem;
+    }
+
+    .home-subtitle {
+        font-size: 1.2rem;
+    }
+
+
+}
